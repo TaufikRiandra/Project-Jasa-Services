@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking - Jasa Service Laptop & PC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Jasa Service Taufik</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="services.html">Layanan</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="testimonials.html">Testimoni</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="booking-form">
+      <h2>Formulir Booking Layanan</h2>
+      <form action="#" method="POST">
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telepon">Nomor Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required />
+
+        <label for="layanan">Pilih Layanan:</label>
+        <select id="layanan" name="layanan">
+          <option value="laptop">Perbaikan Laptop</option>
+          <option value="pc">Perbaikan PC</option>
+          <option value="instalasi">Instalasi & Setting</option>
+          <option value="onsite">Service On-Site</option>
+        </select>
+
+        <label for="jadwal">Jadwal Kunjungan:</label>
+        <input type="date" id="jadwal" name="jadwal" required />
+
+        <label for="pesan">Pesan Tambahan:</label>
+        <textarea id="pesan" name="pesan" rows="4"></textarea>
+
+        <button type="submit">Kirim Pemesanan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Jasa Service Taufik. All rights reserved.</p>
+  </footer>
+</body>
+</html>
